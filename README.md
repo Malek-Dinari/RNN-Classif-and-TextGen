@@ -17,11 +17,20 @@ This repository is dedicated to exploring and contrasting the capabilities of Re
 
 ## Directory Structure
 ```plaintext
-RNN-Classif-and-TextGen/
-├── rnn_from_scratch.py       # Implementation of a vanilla RNN.
-├── lstm_from_scratch.py      # Implementation of an LSTM from scratch.
-├── gradient_descent.py       # Recap of gradient descent and gradient-related problems.
-├── data/                     # Example datasets for classification and text generation.
-├── models/                   # Saved model weights.
-└── README.md                 # Project overview and details.
+RNN-LSTM/
+├── models/
+│   ├── __init__.py
+│   ├── rnn.py
+│   ├── lstm.py
+│   └── base_model.py
+├── utils/
+│   ├── __init__.py
+│   ├── dataloader.py
+│   ├── metrics.py
+│   └── visualize.py
+├── experiments/
+│   ├── __init__.py
+│   ├── classification.py
+│   └── text_generation.py
+└── main.py
 ```
