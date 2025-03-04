@@ -2,8 +2,8 @@
 import os
 import sys
 import numpy as np
-from models.lstm import LSTM
-from models.rnn import VanillaRNN
+from ..models.lstm import LSTM
+from ..models.rnn import VanillaRNN
 from utils.metrics import accuracy
 from utils.visualize import TensorBoardLogger
 from utils.dataloader import ClassificationLoader

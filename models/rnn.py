@@ -27,7 +27,7 @@ class VanillaRNN(BaseRNN):
 
     def output(self, h):
         """Map hidden state to output (vocabulary size)"""
-        return np.dot(self.Why, h) + self.by]  # Shape: [input_size, batch_size]
+        return np.dot(self.Why, h) + self.by  # Shape: [input_size, batch_size]
 
     def backward(self, dy):
         """
